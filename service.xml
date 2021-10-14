@@ -1,0 +1,9 @@
+<entity local-service="true" name="Actor" remote-service="false" uuid="true">
+	<column name="actorId" primary="true" type="long" />
+		<column name="actorName" type="String" />
+		<column name="age" type="int" />
+		<column name="languages" type="String" />
+		<column name="movies" type="String" />
+		<column name="criticRating" type="int" />
+		<reference entity="AssetEntry" package-path="com.liferay.portlet.asset" />
+	</entity>
