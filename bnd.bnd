@@ -1,0 +1,4 @@
+Bundle-Name: finalyyy
+Bundle-SymbolicName: finalyyy
+Bundle-Version: 1.0.0
+Export-Package: finalyyy.constants
